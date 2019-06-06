@@ -1,0 +1,139 @@
+﻿<Window x:Class="PaintingLesson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PaintingLesson"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Line Panel.ZIndex="2" X1="0" Y1="0" X2="86" Y2="106" Stroke="Black" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Canvas.Left="339" Canvas.Top="115" Width="87" Height="107">
+
+            <Line.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="269.971"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Line.RenderTransform>
+        </Line>
+        <Line Panel.ZIndex="2" X1="0" Y1="0" X2="86" Y2="106" Stroke="Black" StrokeThickness="2" RenderTransformOrigin="0.5,0.5" Canvas.Left="340" Canvas.Top="205" Width="87" Height="107">
+            <Line.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="269.971"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Line.RenderTransform>
+        </Line>
+        <Rectangle Panel.ZIndex="1" Width="106" Height="88" Stroke="#FF020000"  Canvas.Left="329" Canvas.Top="38">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="1"/>
+                    <GradientStop Color="#FFBBBBBB"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Panel.ZIndex="1" Width="106" Height="88" Stroke="Black"  Canvas.Left="223" Canvas.Top="126">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="1"/>
+                    <GradientStop Color="#FFBBBBBB"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Panel.ZIndex="1" Width="106" Height="88" Stroke="Black"  Canvas.Left="223" Canvas.Top="214">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="1"/>
+                    <GradientStop Color="#FFBBBBBB"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Panel.ZIndex="1" Width="106" Height="88" Stroke="Black"  Canvas.Left="329" Canvas.Top="126" Fill="Red"/>
+        <Rectangle Panel.ZIndex="1" Width="106" Height="88" Stroke="Black"  Canvas.Left="329" Canvas.Top="302">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="1"/>
+                    <GradientStop Color="#FFBBBBBB"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Panel.ZIndex="1" Width="106" Height="88" Stroke="#FF060000"  Canvas.Left="329" Canvas.Top="214" Fill="Red"/>
+        <Rectangle Panel.ZIndex="1" Width="106" Height="88" Stroke="Black"  Canvas.Left="435" Canvas.Top="126">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="1"/>
+                    <GradientStop Color="#FFBBBBBB"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Panel.ZIndex="1" Width="106" Height="88" Stroke="#FF020000"  Canvas.Left="435" Canvas.Top="214">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="1"/>
+                    <GradientStop Color="#FFBBBBBB"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Width="106" Height="45" Stroke="Red"  Canvas.Left="541" Canvas.Top="195">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="1"/>
+                    <GradientStop Color="#FFBBBBBB"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Width="106" Height="45" Stroke="Red"  Canvas.Left="647" Canvas.Top="195">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEEEEE" Offset="1"/>
+                    <GradientStop Color="#FFBBBBBB"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+            
+        </Rectangle>
+            <Path Width="107.354" Height="137.944" Stretch="Fill" Stroke="Black" Fill="#FFFD0000" Data="F1 M 287.328,237.333L 319.344,255.818L 319.344,218.849L 287.328,237.333 Z " Canvas.Left="257.073" Canvas.Top="51.778" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-1.256"/>
+                    <RotateTransform Angle="-130.709"/>
+                    <TranslateTransform X="1.006" Y="1.062"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Width="88.224" Height="138.243" Stretch="Fill" Stroke="Black" Fill="Red" Data="F1 M 287.328,237.333L 319.344,255.818L 319.344,218.849L 287.328,237.333 Z " Canvas.Left="415.152" Canvas.Top="46.304" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-1.256"/>
+                    <RotateTransform Angle="-51.58"/>
+                    <TranslateTransform X="1.006" Y="1.062"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Width="105.226" Height="137.874" Stretch="Fill" Stroke="Black" Fill="#FFFF0909" Data="F1 M 287.328,237.333L 319.344,255.818L 319.344,218.849L 287.328,237.333 Z " Canvas.Left="255" Canvas.Top="235.563" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-1.256"/>
+                    <RotateTransform Angle="-231.329"/>
+                    <TranslateTransform X="1.006" Y="1.062"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Width="107.354" Height="137.944" Stretch="Fill" Stroke="Black" Fill="Red" Data="F1 M 287.328,237.333L 319.344,255.818L 319.344,218.849L 287.328,237.333 Z " Canvas.Left="397.5" Canvas.Top="236.528" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-1.256"/>
+                    <RotateTransform Angle="-311.418"/>
+                    <TranslateTransform X="1.006" Y="1.062"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+    </Canvas>
+</Window>
